@@ -1,0 +1,7 @@
+bin\Debug\MFreela.dll
+bin\Debug\MFreela.pdb
+bin\Debug\IFreela.dll
+bin\Debug\IFreela.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\MFreela.dll
+obj\Debug\MFreela.pdb

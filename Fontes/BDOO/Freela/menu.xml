@@ -1,0 +1,8 @@
+<?xml version="1.0" standalone="yes"?>
+  <Home>
+    <Inicio url="Default.aspx" title="Inicio" description="Início" />
+    <Informacao url="Informacao.aspx" title="Informação" description="Informação">
+      <AgentesFifa url="Agentes.aspx" title="Agentes Fifa" description="Agentes Fifa" />
+    </Informacao>
+    <Transferencias url="Transferencia.aspx" title="Transferências" description="Transferências" />
+  </Home>

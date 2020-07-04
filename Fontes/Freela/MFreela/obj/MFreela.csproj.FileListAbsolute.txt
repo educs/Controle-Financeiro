@@ -1,0 +1,7 @@
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\MFreela\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\MFreela\obj\Debug\MFreela.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\MFreela\obj\Debug\MFreela.pdb
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\MFreela\bin\Debug\MFreela.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\MFreela\bin\Debug\MFreela.pdb
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\MFreela\bin\Debug\IFreela.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\MFreela\bin\Debug\IFreela.pdb

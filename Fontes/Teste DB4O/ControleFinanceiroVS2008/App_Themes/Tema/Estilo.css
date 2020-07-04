@@ -1,0 +1,110 @@
+﻿body {
+}
+.etiqueta{ 
+   font-size:medium; 
+   font-family: verdana; 
+   font-size: medium; 
+   text-align: center; 
+   font-weight:bold;
+   }
+   
+ .etiquetaMensagem
+ {
+       font-weight:bold;
+       color:Navy;
+   }
+.formPrincipal
+{
+    width: 800px;
+    vertical-align: middle; 
+    text-align: center; 
+    background-color: #333333; 
+    border-collapse: collapse; 
+    empty-cells: hide;
+    caption-side: top; 
+    border-spacing: 1px; 
+    }
+    
+.tabelinha {
+    background-color:#FFFFFF;
+    border-style:ridge;
+    border-color:#FFFF00;
+    vertical-align:middle;
+    width:100%;
+}
+.menu 
+{
+    background-color: #006600;
+}
+
+/*AutoComplete flyout */
+
+.autocomplete_completionListElement 
+{  
+	visibility : hidden;
+	margin : 0px!important;
+	background-color : #E6E6FA;
+	border : buttonshadow;
+	border-width : 1px;
+	border-style : solid;
+	cursor : 'default';
+	overflow : auto;
+	height : 200px;
+    text-align : left; 
+    list-style-type : none;
+}
+
+/* AutoComplete highlighted item */
+
+.autocomplete_highlightedListItem
+{
+	background-color: #778899;
+	color: White;
+	font-weight:bold;
+	padding: 1px;
+}
+
+/* AutoComplete item */
+
+.autocomplete_listItem 
+{
+	background-color : window;
+	color : windowtext;
+	padding : 1px;
+}
+
+/* Accordion */
+.accordionHeader
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5D7B9D;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionHeaderSelected
+{
+    border: 1px solid #2F4F4F;
+    color: white;
+    background-color: #5078B3;
+	font-family: Arial, Sans-Serif;
+	font-size: 12px;
+	font-weight: bold;
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.accordionContent
+{
+    background-color: #D3DEEF;
+    border: 1px dashed #2F4F4F;
+    border-top: none;
+    padding: 5px;
+    padding-top: 10px;
+}

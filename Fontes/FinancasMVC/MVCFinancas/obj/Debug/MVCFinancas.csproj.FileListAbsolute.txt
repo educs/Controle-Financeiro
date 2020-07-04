@@ -1,0 +1,7 @@
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas\bin\MVCFinancas.dll
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas\bin\MVCFinancas.pdb
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas\bin\AjaxControlToolkit.dll
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas\bin\Db4objects.Db4o.dll
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas\obj\Debug\MVCFinancas.dll
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas\obj\Debug\MVCFinancas.pdb

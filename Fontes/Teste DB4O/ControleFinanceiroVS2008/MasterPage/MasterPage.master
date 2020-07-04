@@ -1,0 +1,54 @@
+﻿        <%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Controle-se!</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../App_Themes/Tema/Estilo.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="frmPrincipal" runat="server" class="formPrincipal">
+    <div>
+        <asp:ScriptManager ID="sm" runat="server" />
+        <img src="../imagens/finance.jpg" width="200px" alt="Sistema de Controle e Apoio Financeiro" />
+        <table class="tabelinha" width="100%">
+            <tr>
+                <td>
+        <asp:Menu ID="mnu" runat="server" BackColor="#F7F6F3" class="menu"
+            DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+            ForeColor="#7C6F57" StaticSubMenuIndent="10px" Orientation="Horizontal">
+            <StaticSelectedStyle BackColor="#5D7B9D" />
+            <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+            <DynamicMenuStyle BackColor="#F7F6F3" />
+            <DynamicSelectedStyle BackColor="#5D7B9D" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+            <Items>
+                <asp:MenuItem Text="Cadastro" Value="Cadastros Gerais">
+                    <asp:MenuItem Text="Conta" Value="Cadastro de Conta" NavigateUrl="~/forms/CadastrarConta.aspx" ></asp:MenuItem>
+                    <asp:MenuItem Text="Categoria" Value="Cadastro de Categoria" NavigateUrl="~/forms/CadastrarCategoria.aspx" ></asp:MenuItem>
+                </asp:MenuItem>
+                <asp:MenuItem NavigateUrl="~/forms/IncluirLancamento.aspx" Text="Lançamentos" 
+                    Value="Lançamentos"></asp:MenuItem>
+                <asp:MenuItem Text="LogOff" NavigateUrl="~/forms/LogOff.aspx" Value="LogOff">
+                </asp:MenuItem>
+            </Items>
+        </asp:Menu>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        </td>
+    </tr>
+   </table>
+   </div>
+  </form>
+</body>
+</html>

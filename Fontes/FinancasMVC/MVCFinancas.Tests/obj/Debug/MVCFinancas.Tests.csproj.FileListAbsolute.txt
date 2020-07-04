@@ -1,0 +1,9 @@
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\bin\Debug\MVCFinancas.Tests.dll.config
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\bin\Debug\MVCFinancas.Tests.dll
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\bin\Debug\MVCFinancas.Tests.pdb
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\bin\Debug\MVCFinancas.dll
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\bin\Debug\Db4objects.Db4o.dll
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\bin\Debug\MVCFinancas.pdb
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\obj\Debug\MVCFinancas.Tests.dll
+C:\Documents and Settings\p016905\Meus documentos\Visual Studio 2008\Projects\MVCFinancas\MVCFinancas.Tests\obj\Debug\MVCFinancas.Tests.pdb

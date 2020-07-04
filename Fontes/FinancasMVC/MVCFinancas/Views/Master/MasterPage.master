@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+    <link href="../../Content/Estilo.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form class="formPrincipal" runat="server">
+        <asp:ScriptManager ID="scm" runat="server" />
+           
+        <div id="cabecalho">
+            <h1>Controle Financeiro Pessoal</h1>
+        </div>
+        
+         <div id="logindisplay">
+         </div> 
+         
+         <div id="menucontainer">
+             <cc1:TabContainer ID="tabMenu" runat="server">
+                <cc1:TabPanel runat="server" ID="mnuLancamento" HeaderText="Lançamentos">
+                    <ContentTemplate>
+                        <asp:ContentPlaceHolder ID="ConteudoLancamento" runat="server" />
+                    </ContentTemplate>
+                </cc1:TabPanel>
+                 
+             </cc1:TabContainer>
+            
+         </div>
+   </form>
+</body>
+</html>

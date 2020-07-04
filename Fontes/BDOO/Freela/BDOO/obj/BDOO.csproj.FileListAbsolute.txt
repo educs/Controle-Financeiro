@@ -1,0 +1,9 @@
+D:\Fontes\Freela\BDOO\obj\Debug\ResolveAssemblyReference.cache
+D:\Fontes\Freela\BDOO\bin\Debug\BDOO.dll
+D:\Fontes\Freela\BDOO\bin\Debug\BDOO.pdb
+D:\Fontes\Freela\BDOO\bin\Debug\Db4objects.Db4o.dll
+D:\Fontes\Freela\BDOO\bin\Debug\IFreela.dll
+D:\Fontes\Freela\BDOO\bin\Debug\Db4objects.Db4o.xml
+D:\Fontes\Freela\BDOO\bin\Debug\IFreela.pdb
+D:\Fontes\Freela\BDOO\obj\Debug\BDOO.dll
+D:\Fontes\Freela\BDOO\obj\Debug\BDOO.pdb

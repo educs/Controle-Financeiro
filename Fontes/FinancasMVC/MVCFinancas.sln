@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCFinancas", "MVCFinancas\MVCFinancas.csproj", "{DE381F50-7C4A-4596-B9CC-EF0ACE19C0CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCFinancas.Tests", "MVCFinancas.Tests\MVCFinancas.Tests.csproj", "{013B44D4-F7C4-471F-976E-CBAF99E4472F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE381F50-7C4A-4596-B9CC-EF0ACE19C0CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE381F50-7C4A-4596-B9CC-EF0ACE19C0CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE381F50-7C4A-4596-B9CC-EF0ACE19C0CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE381F50-7C4A-4596-B9CC-EF0ACE19C0CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013B44D4-F7C4-471F-976E-CBAF99E4472F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013B44D4-F7C4-471F-976E-CBAF99E4472F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013B44D4-F7C4-471F-976E-CBAF99E4472F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013B44D4-F7C4-471F-976E-CBAF99E4472F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

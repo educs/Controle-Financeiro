@@ -1,0 +1,55 @@
+<%@ Master Language="C#" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<%@ Register Src="UCMenu.ascx" TagName="UCMenu" TagPrefix="uc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Teste Freela</title>
+</head>
+<body>
+    <form id="form1" runat="server" >
+        <asp:Login ID="Login" runat="server" BackColor="LightSteelBlue" BorderColor="#B5C7DE" BorderPadding="4"
+                BorderStyle="Solid" BorderWidth="1px" FailureText="Login Inválido. Por favor, tente de novo."
+                Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" PasswordLabelText="Senha" 
+                PasswordRequiredErrorMessage="Senha requerida." UserNameLabelText="Usuário" UserNameRequiredErrorMessage="Usuário requerido" 
+                DisplayRememberMe="False" Orientation="Horizontal" Width="500px" CreateUserText="Cadastre-se!" CreateUserUrl="CadastrarUsuario.aspx" 
+                DestinationPageUrl="lancar.aspx" OnLoggedIn="Logar">
+                <TextBoxStyle Font-Size="0.8em" />
+                <LoginButtonStyle BackColor="White" BorderColor="#507CD1" BorderStyle="Solid" BorderWidth="1px"
+                Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" />
+                <InstructionTextStyle Font-Italic="True" ForeColor="Black" />
+                <TitleTextStyle BackColor="Brown" Font-Bold="True" Font-Size="0.9em" ForeColor="White" />
+                </asp:Login>
+        <asp:Panel ID="pnLogado" runat="server" BackColor="lightsteelblue" BorderColor="#B5C7DE" Visible="false" Width="510px">
+            <table>
+                <tr>
+                    <td colspan="2" align="center">
+                        <asp:Label runat="server" ID="lbTitulo" BackColor="Brown"  Font-Bold="True" Font-Size="0.9em" 
+                            width="500px" ForeColor="White" Text="Logado" />
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" width="20%">
+                        Usuário: <asp:Label ID="lbUsuario" runat="server" Font-Italic="true"></asp:Label>     
+                    </td>
+                    <td align="right">
+                        <asp:Button ID="BtSair" Text="Sair" BackColor="white" BorderColor="#507CD1" BorderStyle="solid" BorderWidth="1px"
+                         Font-Names="Verdana" Font-Size="0.8em" ForeColor="#284E98" runat="server" OnClick="BtSair_Click" ></asp:Button>
+                    </td>
+                </tr>
+            </table>
+               
+        </asp:Panel>
+        <table id="tbEstrutura" border="1" bordercolor="#b5c7de" >
+        <tr>
+            <td valign="top">
+                <uc1:UCMenu ID="UCMenu1" runat="server" Visible="true"/>
+            </td>
+            <td>
+                <asp:contentplaceholder id="cphMenu" runat="server" />
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

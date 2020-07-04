@@ -1,0 +1,10 @@
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\obj\Release\ResolveAssemblyReference.cache
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\bin\Web.dll
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\bin\Web.pdb
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\bin\Db4objects.Db4o.dll
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\bin\Db4objects.Db4o.xml
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\obj\Release\Web.dll
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\obj\Release\Web.pdb
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\obj\Debug\Web.dll
+C:\Edu\Pós\Monografia\BDOO\Fonte\ControleFinanceiro\Web\obj\Debug\Web.pdb

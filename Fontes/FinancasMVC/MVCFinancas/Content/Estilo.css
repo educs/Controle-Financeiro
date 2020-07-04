@@ -1,0 +1,108 @@
+﻿body {
+}
+.etiqueta{ 
+   font-size:medium; 
+   font-family: verdana; 
+   font-size: medium; 
+   text-align: center; 
+   font-weight:bold;
+   }
+.formPrincipal
+{
+    width: 800px;
+    height: 600px;
+    vertical-align: middle; 
+    text-align: center; 
+    background-color: #006600; 
+    border-collapse: collapse; 
+    empty-cells: hide;
+    caption-side: top; 
+    border-spacing: 1px; 
+    }
+    
+.tabelinha {
+    border-color:White;
+    border-style:groove;
+    background-color:Lime;
+}
+.menu 
+{
+    background-color: #006600;
+}
+
+h1
+{
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    background-color:White;
+       border-style: outset;
+    border-width:thin;
+    border-color:Black;
+}
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+/* you can specify a greater or lesser percentage for the 
+page width. Or, you can specify an exact pixel width. */
+.page
+{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header
+{
+    position: relative;
+    margin-bottom: 0px;
+    color: #000;
+    padding: 0;
+}
+
+#header h1
+{
+    font-weight: bold;
+    padding: 5px 0;
+    margin: 0;
+    color: #fff;
+    border: none;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px !important;
+}
+
+#main
+{
+    padding: 30px 30px 15px 30px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    border-style: outset;
+    border-width:thin;
+    border-color:Black;
+    _height: 1px; /* only IE6 applies CSS properties starting with an underscrore */
+}
+/* TAB MENU   
+----------------------------------------------------------*/
+ul#menu
+{
+    border-bottom: 1px #5C87B2 solid;
+    padding: 0 0 2px;
+    position: relative;
+    margin: 0;
+    text-align: right;
+}
+
+ul#menu li
+{
+    display: inline;
+    list-style: none;
+}
+
+/* VARIOS
+-----------------------------------------------------------*/
+#menucontainer
+{
+    margin-top:40px;
+}

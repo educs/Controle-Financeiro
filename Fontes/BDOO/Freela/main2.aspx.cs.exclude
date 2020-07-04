@@ -1,0 +1,44 @@
+using System;
+using System.Data;
+using System.Configuration;
+using System.Collections;
+using System.Web;
+using System.Web.Security;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
+using System.Web.UI.HtmlControls;
+using Freela.Interface;
+using Freela.Controladora;
+
+public partial class main2 : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        IFreela ac = new CFreela();
+
+        this.gvNoticia.DataSource = ac.ConsultarXml();
+        this.gvNoticia.DataBind();
+        //DataSet dsXml = new DataSet();
+        //DataSet dsTrans = new DataSet();
+        //DataTable dt, dtTrans = new DataTable();
+
+        //dsXml.ReadXml("D:\\Fontes\\freela\\arquivo.xml");
+        //dt = dsXml.Tables[0];
+        //dtTrans = dsXml.Tables[0].Clone();
+        //foreach (DataRow linha in dt.Rows)
+        //{
+        //    DataRow dr = dtTrans.NewRow();
+        //    dr["titulo"] = linha["titulo"];
+
+        //    dtTrans.Rows.Add(dr);
+        //    dr = dtTrans.NewRow();
+        //    dr["descricao"] = linha["descricao"];
+        //    dtTrans.Rows.Add(dr);
+        //}
+    }
+    protected void gvNoticia_DataBound(object sender, GridViewRowEventArgs e)
+    {
+        e.Row.Cells[0].Font.Underline = true;
+    }
+}

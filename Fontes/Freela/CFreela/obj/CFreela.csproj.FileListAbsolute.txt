@@ -1,0 +1,13 @@
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\CFreela.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\CFreela.pdb
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\IFreela.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\IFreela.pdb
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\obj\Debug\CFreela.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\obj\Debug\CFreela.pdb
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\MFreela.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\MFreela.pdb
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\BDOO.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\Db4objects.Db4o.dll
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\Db4objects.Db4o.xml
+C:\Documents and Settings\Edu\Meus documentos\Visual Studio 2005\Projects\Freela\CFreela\bin\Debug\BDOO.pdb
